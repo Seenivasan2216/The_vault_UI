@@ -1,0 +1,147 @@
+2024-06-26 16:22:52 [ERROR]: addUser Service Exceptions {
+  "err": {
+    "length": 255,
+    "name": "error",
+    "severity": "ERROR",
+    "code": "42883",
+    "hint": "No procedure matches the given name and argument types. You might need to add explicit type casts.",
+    "position": "6",
+    "file": "parse_func.c",
+    "line": "627",
+    "routine": "ParseFuncOrColumn"
+  }
+}
+2024-06-26 16:24:49 [ERROR]: addUser Service Exceptions {
+  "err": {
+    "length": 255,
+    "name": "error",
+    "severity": "ERROR",
+    "code": "42883",
+    "hint": "No procedure matches the given name and argument types. You might need to add explicit type casts.",
+    "position": "6",
+    "file": "parse_func.c",
+    "line": "627",
+    "routine": "ParseFuncOrColumn"
+  }
+}
+2024-06-26 16:29:35 [ERROR]: addUser Service Exceptions {
+  "err": {
+    "length": 616,
+    "name": "error",
+    "severity": "ERROR",
+    "code": "42804",
+    "hint": "You will need to rewrite or cast the expression.",
+    "internalPosition": "254",
+    "internalQuery": "INSERT INTO Users\n           (FirstName\n           ,LastName\n           ,Email\n           ,Active\n           ,Username\n           ,Password\n           ,CreatedBy\n           )\n     VALUES\n           (fname\n           ,lname\n           ,Email\n           ,1\n\t\t   ,Username\n\t\t   ,pwd\n\t\t   ,modifyby\n           )",
+    "where": "PL/pgSQL function adduser(character,character,character,character,character,character) line 3 at SQL statement",
+    "file": "parse_target.c",
+    "line": "594",
+    "routine": "transformAssignedExpr"
+  }
+}
+2024-06-26 16:30:04 [ERROR]: addUser Service Exceptions {
+  "err": {
+    "length": 763,
+    "name": "error",
+    "severity": "ERROR",
+    "code": "23502",
+    "detail": "Failing row contains (2, 6dec2d35-6cc4-4bb9-b787-e3f02e029f7f, Churchil, Raja, abcraja@gmail.com, t, , null, 2024-06-27 00:29:43.561431, null, null, null).",
+    "where": "SQL statement \"INSERT INTO Users\n           (FirstName\n           ,LastName\n           ,Email\n           ,Active\n           ,Username\n           ,Password\n           ,CreatedBy\n           )\n     VALUES\n           (fname\n           ,lname\n           ,Email\n           ,'t'\n\t\t   ,Username\n\t\t   ,pwd\n\t\t   ,modifyby\n           )\"\nPL/pgSQL function adduser(character,character,character,character,character,character) line 3 at SQL statement",
+    "schema": "public",
+    "table": "users",
+    "column": "password",
+    "file": "execMain.c",
+    "line": "2009",
+    "routine": "ExecConstraints"
+  }
+}
+2024-06-26 16:30:35 [ERROR]: addUser Service Exceptions {
+  "err": {
+    "length": 212,
+    "name": "error",
+    "severity": "ERROR",
+    "code": "42703",
+    "internalPosition": "1",
+    "internalQuery": "uid",
+    "where": "PL/pgSQL function adduser(character,character,character,character,character,character) line 21 at RAISE",
+    "file": "parse_relation.c",
+    "line": "3727",
+    "routine": "errorMissingColumn"
+  }
+}
+2024-06-27 12:47:54 [ERROR]: loginUser handler Exceptions {
+  "err": {}
+}
+2024-06-28 15:31:39 [ERROR]: updateUser Service Exceptions {
+  "err": {
+    "length": 105,
+    "name": "error",
+    "severity": "ERROR",
+    "code": "42703",
+    "position": "20",
+    "file": "parse_relation.c",
+    "line": "3727",
+    "routine": "errorMissingColumn"
+  }
+}
+2024-06-28 15:44:49 [ERROR]: updateUser Service Exceptions {
+  "err": {
+    "length": 297,
+    "name": "error",
+    "severity": "ERROR",
+    "code": "42601",
+    "hint": "If you want to discard the results of a SELECT, use PERFORM instead.",
+    "where": "PL/pgSQL function updateuser(bigint,character,character,character,character,character,character) line 13 at SQL statement",
+    "file": "pl_exec.c",
+    "line": "4431",
+    "routine": "exec_stmt_execsql"
+  }
+}
+2024-06-28 16:20:55 [ERROR]: addUser Service Exceptions {
+  "err": {
+    "length": 165,
+    "name": "error",
+    "severity": "ERROR",
+    "code": "P0001",
+    "where": "PL/pgSQL function adduser(text,text,text,text,text,text) line 25 at RAISE",
+    "file": "pl_exec.c",
+    "line": "3923",
+    "routine": "exec_stmt_raise"
+  }
+}
+2024-06-28 16:37:28 [ERROR]: addUser Service Exceptions {
+  "err": {
+    "length": 165,
+    "name": "error",
+    "severity": "ERROR",
+    "code": "P0001",
+    "where": "PL/pgSQL function adduser(text,text,text,text,text,text) line 25 at RAISE",
+    "file": "pl_exec.c",
+    "line": "3923",
+    "routine": "exec_stmt_raise"
+  }
+}
+2024-06-28 16:41:15 [ERROR]: addUser Service Exceptions {
+  "err": {
+    "length": 165,
+    "name": "error",
+    "severity": "ERROR",
+    "code": "P0001",
+    "where": "PL/pgSQL function adduser(text,text,text,text,text,text) line 25 at RAISE",
+    "file": "pl_exec.c",
+    "line": "3923",
+    "routine": "exec_stmt_raise"
+  }
+}
+2024-06-28 16:41:45 [ERROR]: addUser Service Exceptions {
+  "err": {
+    "length": 165,
+    "name": "error",
+    "severity": "ERROR",
+    "code": "P0001",
+    "where": "PL/pgSQL function adduser(text,text,text,text,text,text) line 25 at RAISE",
+    "file": "pl_exec.c",
+    "line": "3923",
+    "routine": "exec_stmt_raise"
+  }
+}

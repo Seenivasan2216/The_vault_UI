@@ -1,0 +1,430 @@
+2024-06-26 16:22:29 [INFO]: loginUser Service completed. 
+2024-06-26 16:22:29 [INFO]: loginUser handler completed. 
+2024-06-26 16:22:33 [INFO]: Getusers handler completed. 
+2024-06-26 16:22:36 [INFO]: Delete User handler completed. 
+2024-06-26 16:22:52 [ERROR]: addUser Service Exceptions {
+  "err": {
+    "length": 255,
+    "name": "error",
+    "severity": "ERROR",
+    "code": "42883",
+    "hint": "No procedure matches the given name and argument types. You might need to add explicit type casts.",
+    "position": "6",
+    "file": "parse_func.c",
+    "line": "627",
+    "routine": "ParseFuncOrColumn"
+  }
+}
+2024-06-26 16:22:52 [INFO]: addUser handler completed. 
+2024-06-26 16:24:49 [ERROR]: addUser Service Exceptions {
+  "err": {
+    "length": 255,
+    "name": "error",
+    "severity": "ERROR",
+    "code": "42883",
+    "hint": "No procedure matches the given name and argument types. You might need to add explicit type casts.",
+    "position": "6",
+    "file": "parse_func.c",
+    "line": "627",
+    "routine": "ParseFuncOrColumn"
+  }
+}
+2024-06-26 16:24:56 [INFO]: addUser handler completed. 
+2024-06-26 16:29:35 [ERROR]: addUser Service Exceptions {
+  "err": {
+    "length": 616,
+    "name": "error",
+    "severity": "ERROR",
+    "code": "42804",
+    "hint": "You will need to rewrite or cast the expression.",
+    "internalPosition": "254",
+    "internalQuery": "INSERT INTO Users\n           (FirstName\n           ,LastName\n           ,Email\n           ,Active\n           ,Username\n           ,Password\n           ,CreatedBy\n           )\n     VALUES\n           (fname\n           ,lname\n           ,Email\n           ,1\n\t\t   ,Username\n\t\t   ,pwd\n\t\t   ,modifyby\n           )",
+    "where": "PL/pgSQL function adduser(character,character,character,character,character,character) line 3 at SQL statement",
+    "file": "parse_target.c",
+    "line": "594",
+    "routine": "transformAssignedExpr"
+  }
+}
+2024-06-26 16:29:35 [INFO]: addUser handler completed. 
+2024-06-26 16:30:04 [ERROR]: addUser Service Exceptions {
+  "err": {
+    "length": 763,
+    "name": "error",
+    "severity": "ERROR",
+    "code": "23502",
+    "detail": "Failing row contains (2, 6dec2d35-6cc4-4bb9-b787-e3f02e029f7f, Churchil, Raja, abcraja@gmail.com, t, , null, 2024-06-27 00:29:43.561431, null, null, null).",
+    "where": "SQL statement \"INSERT INTO Users\n           (FirstName\n           ,LastName\n           ,Email\n           ,Active\n           ,Username\n           ,Password\n           ,CreatedBy\n           )\n     VALUES\n           (fname\n           ,lname\n           ,Email\n           ,'t'\n\t\t   ,Username\n\t\t   ,pwd\n\t\t   ,modifyby\n           )\"\nPL/pgSQL function adduser(character,character,character,character,character,character) line 3 at SQL statement",
+    "schema": "public",
+    "table": "users",
+    "column": "password",
+    "file": "execMain.c",
+    "line": "2009",
+    "routine": "ExecConstraints"
+  }
+}
+2024-06-26 16:30:04 [INFO]: addUser handler completed. 
+2024-06-26 16:30:35 [ERROR]: addUser Service Exceptions {
+  "err": {
+    "length": 212,
+    "name": "error",
+    "severity": "ERROR",
+    "code": "42703",
+    "internalPosition": "1",
+    "internalQuery": "uid",
+    "where": "PL/pgSQL function adduser(character,character,character,character,character,character) line 21 at RAISE",
+    "file": "parse_relation.c",
+    "line": "3727",
+    "routine": "errorMissingColumn"
+  }
+}
+2024-06-26 16:30:35 [INFO]: addUser handler completed. 
+2024-06-26 16:41:14 [INFO]: updateUser handler completed. 
+2024-06-26 16:43:31 [INFO]: addUser handler completed. 
+2024-06-27 12:47:54 [INFO]: loginUser handler completed. 
+2024-06-27 12:47:54 [ERROR]: loginUser handler Exceptions {
+  "err": {}
+}
+2024-06-27 12:49:59 [INFO]: loginUser Service completed. 
+2024-06-27 12:49:59 [INFO]: loginUser handler completed. 
+2024-06-27 12:50:02 [INFO]: Getusers handler completed. 
+2024-06-27 12:50:03 [INFO]: Getusers handler completed. 
+2024-06-27 12:50:41 [INFO]: Getusers handler completed. 
+2024-06-27 12:50:41 [INFO]: Getusers handler completed. 
+2024-06-27 12:51:25 [INFO]: Getusers handler completed. 
+2024-06-27 12:51:25 [INFO]: Getusers handler completed. 
+2024-06-27 12:51:51 [INFO]: Getusers handler completed. 
+2024-06-27 12:51:53 [INFO]: Getusers handler completed. 
+2024-06-27 12:52:51 [INFO]: Getusers handler completed. 
+2024-06-27 12:52:51 [INFO]: Getusers handler completed. 
+2024-06-27 12:53:15 [INFO]: Getusers handler completed. 
+2024-06-27 12:53:25 [INFO]: Getusers handler completed. 
+2024-06-27 12:53:25 [INFO]: Getusers handler completed. 
+2024-06-27 12:53:26 [INFO]: Getusers handler completed. 
+2024-06-27 12:53:26 [INFO]: Getusers handler completed. 
+2024-06-27 12:54:10 [INFO]: Getusers handler completed. 
+2024-06-27 12:54:12 [INFO]: Getusers handler completed. 
+2024-06-27 12:54:20 [INFO]: Getusers handler completed. 
+2024-06-27 14:30:44 [INFO]: Getusers handler completed. 
+2024-06-27 14:30:44 [INFO]: Getusers handler completed. 
+2024-06-27 14:30:44 [INFO]: Getusers handler completed. 
+2024-06-27 14:30:44 [INFO]: Getusers handler completed. 
+2024-06-27 14:30:44 [INFO]: Getusers handler completed. 
+2024-06-27 14:30:44 [INFO]: addUser handler completed. 
+2024-06-27 14:30:44 [INFO]: addUser handler completed. 
+2024-06-27 14:30:44 [INFO]: addUser handler completed. 
+2024-06-27 14:30:44 [INFO]: Getusers handler completed. 
+2024-06-27 14:30:44 [INFO]: Getusers handler completed. 
+2024-06-27 14:38:46 [INFO]: Getusers handler completed. 
+2024-06-27 14:38:46 [INFO]: Getusers handler completed. 
+2024-06-27 14:39:00 [INFO]: Getusers handler completed. 
+2024-06-27 14:39:00 [INFO]: Getusers handler completed. 
+2024-06-27 14:39:44 [INFO]: Getusers handler completed. 
+2024-06-27 14:39:48 [INFO]: Getusers handler completed. 
+2024-06-27 14:40:04 [INFO]: Getusers handler completed. 
+2024-06-27 14:40:25 [INFO]: Getusers handler completed. 
+2024-06-27 14:40:26 [INFO]: Getusers handler completed. 
+2024-06-27 14:40:41 [INFO]: Getusers handler completed. 
+2024-06-27 14:41:30 [INFO]: Getusers handler completed. 
+2024-06-27 14:41:37 [INFO]: Getusers handler completed. 
+2024-06-27 14:41:37 [INFO]: Getusers handler completed. 
+2024-06-27 14:42:29 [INFO]: Getusers handler completed. 
+2024-06-27 14:42:29 [INFO]: Getusers handler completed. 
+2024-06-27 14:42:39 [INFO]: Delete User handler completed. 
+2024-06-27 14:42:39 [INFO]: Getusers handler completed. 
+2024-06-27 14:47:02 [INFO]: Getusers handler completed. 
+2024-06-27 14:47:02 [INFO]: Getusers handler completed. 
+2024-06-27 14:47:19 [INFO]: updateUser handler completed. 
+2024-06-27 14:47:30 [INFO]: Getusers handler completed. 
+2024-06-27 14:47:39 [INFO]: updateUser handler completed. 
+2024-06-27 14:47:39 [INFO]: Getusers handler completed. 
+2024-06-27 14:47:51 [INFO]: updateUser handler completed. 
+2024-06-27 14:47:51 [INFO]: Getusers handler completed. 
+2024-06-27 14:49:22 [INFO]: updateUser handler completed. 
+2024-06-27 14:58:21 [INFO]: Getusers handler completed. 
+2024-06-27 14:58:22 [INFO]: Getusers handler completed. 
+2024-06-27 14:58:23 [INFO]: Getusers handler completed. 
+2024-06-27 15:25:35 [INFO]: Delete User handler completed. 
+2024-06-27 15:25:35 [INFO]: Getusers handler completed. 
+2024-06-27 15:25:41 [INFO]: updateUser handler completed. 
+2024-06-27 15:25:41 [INFO]: Getusers handler completed. 
+2024-06-27 15:31:59 [INFO]: Getusers handler completed. 
+2024-06-27 15:31:59 [INFO]: Getusers handler completed. 
+2024-06-27 15:32:01 [INFO]: Getusers handler completed. 
+2024-06-27 15:32:01 [INFO]: Getusers handler completed. 
+2024-06-27 15:32:03 [INFO]: Getusers handler completed. 
+2024-06-27 15:32:04 [INFO]: Getusers handler completed. 
+2024-06-28 11:22:09 [INFO]: loginUser Service completed. 
+2024-06-28 11:22:09 [INFO]: loginUser handler completed. 
+2024-06-28 11:22:13 [INFO]: Getusers handler completed. 
+2024-06-28 11:22:13 [INFO]: Getusers handler completed. 
+2024-06-28 11:26:49 [INFO]: Getusers handler completed. 
+2024-06-28 11:26:50 [INFO]: Getusers handler completed. 
+2024-06-28 11:27:12 [INFO]: Getusers handler completed. 
+2024-06-28 11:27:12 [INFO]: Getusers handler completed. 
+2024-06-28 11:27:13 [INFO]: Getusers handler completed. 
+2024-06-28 11:27:27 [INFO]: Getusers handler completed. 
+2024-06-28 11:27:29 [INFO]: Getusers handler completed. 
+2024-06-28 11:27:40 [INFO]: Getusers handler completed. 
+2024-06-28 11:27:40 [INFO]: Getusers handler completed. 
+2024-06-28 11:27:42 [INFO]: Getusers handler completed. 
+2024-06-28 11:27:42 [INFO]: Getusers handler completed. 
+2024-06-28 11:27:43 [INFO]: Getusers handler completed. 
+2024-06-28 11:27:43 [INFO]: Getusers handler completed. 
+2024-06-28 11:27:44 [INFO]: Getusers handler completed. 
+2024-06-28 11:27:44 [INFO]: Getusers handler completed. 
+2024-06-28 11:27:44 [INFO]: Getusers handler completed. 
+2024-06-28 11:27:44 [INFO]: Getusers handler completed. 
+2024-06-28 11:30:46 [INFO]: Getusers handler completed. 
+2024-06-28 11:30:53 [INFO]: Getusers handler completed. 
+2024-06-28 11:30:54 [INFO]: Getusers handler completed. 
+2024-06-28 11:32:40 [INFO]: Getusers handler completed. 
+2024-06-28 11:32:42 [INFO]: Getusers handler completed. 
+2024-06-28 11:32:43 [INFO]: Getusers handler completed. 
+2024-06-28 11:34:24 [INFO]: Getusers handler completed. 
+2024-06-28 11:34:24 [INFO]: Getusers handler completed. 
+2024-06-28 11:34:58 [INFO]: Getusers handler completed. 
+2024-06-28 11:35:07 [INFO]: Getusers handler completed. 
+2024-06-28 11:36:22 [INFO]: Getusers handler completed. 
+2024-06-28 11:36:22 [INFO]: Getusers handler completed. 
+2024-06-28 11:36:41 [INFO]: addUser handler completed. 
+2024-06-28 11:36:42 [INFO]: Getusers handler completed. 
+2024-06-28 11:36:49 [INFO]: Getusers handler completed. 
+2024-06-28 11:36:49 [INFO]: Getusers handler completed. 
+2024-06-28 11:37:00 [INFO]: Getusers handler completed. 
+2024-06-28 11:37:00 [INFO]: Getusers handler completed. 
+2024-06-28 11:37:00 [INFO]: Getusers handler completed. 
+2024-06-28 11:37:01 [INFO]: Getusers handler completed. 
+2024-06-28 11:38:23 [INFO]: Getusers handler completed. 
+2024-06-28 11:38:24 [INFO]: Getusers handler completed. 
+2024-06-28 11:38:40 [INFO]: Getusers handler completed. 
+2024-06-28 11:38:40 [INFO]: Getusers handler completed. 
+2024-06-28 11:38:46 [INFO]: Delete User handler completed. 
+2024-06-28 11:38:46 [INFO]: Getusers handler completed. 
+2024-06-28 11:38:53 [INFO]: updateUser handler completed. 
+2024-06-28 11:38:54 [INFO]: Getusers handler completed. 
+2024-06-28 11:44:41 [INFO]: Getusers handler completed. 
+2024-06-28 11:44:41 [INFO]: Getusers handler completed. 
+2024-06-28 11:46:21 [INFO]: Getusers handler completed. 
+2024-06-28 11:46:29 [INFO]: updateUser handler completed. 
+2024-06-28 11:46:29 [INFO]: Getusers handler completed. 
+2024-06-28 11:46:33 [INFO]: Getusers handler completed. 
+2024-06-28 11:46:33 [INFO]: Getusers handler completed. 
+2024-06-28 11:46:57 [INFO]: updateUser handler completed. 
+2024-06-28 11:46:57 [INFO]: Getusers handler completed. 
+2024-06-28 12:03:51 [INFO]: Getusers handler Started. 
+2024-06-28 12:03:51 [INFO]: Getusers handler completed. 
+2024-06-28 12:03:51 [INFO]: Getusers handler Started. 
+2024-06-28 12:03:52 [INFO]: Getusers handler completed. 
+2024-06-28 12:03:56 [INFO]: Getusers handler Started. 
+2024-06-28 12:03:56 [INFO]: Getusers handler completed. 
+2024-06-28 12:03:56 [INFO]: Getusers handler Started. 
+2024-06-28 12:03:56 [INFO]: Getusers handler completed. 
+2024-06-28 12:04:52 [INFO]: updateUser handler completed. 
+2024-06-28 12:04:52 [INFO]: Getusers handler Started. 
+2024-06-28 12:04:52 [INFO]: Getusers handler completed. 
+2024-06-28 12:40:17 [INFO]: Getusers handler Started. 
+2024-06-28 12:40:17 [INFO]: Getusers handler completed. 
+2024-06-28 12:40:52 [INFO]: Getusers handler Started. 
+2024-06-28 12:40:52 [INFO]: Getusers handler completed. 
+2024-06-28 12:41:06 [INFO]: Getusers handler Started. 
+2024-06-28 12:41:06 [INFO]: Getusers handler completed. 
+2024-06-28 12:41:54 [INFO]: Getusers handler Started. 
+2024-06-28 12:41:54 [INFO]: Getusers handler completed. 
+2024-06-28 12:41:54 [INFO]: Getusers handler Started. 
+2024-06-28 12:45:48 [INFO]: Getusers handler Started. 
+2024-06-28 12:45:48 [INFO]: Getusers handler completed. 
+2024-06-28 12:45:48 [INFO]: updateUser handler completed. 
+2024-06-28 12:45:48 [INFO]: Getusers handler Started. 
+2024-06-28 12:45:48 [INFO]: updateUser handler completed. 
+2024-06-28 12:45:48 [INFO]: Getusers handler completed. 
+2024-06-28 12:45:48 [INFO]: Getusers handler Started. 
+2024-06-28 12:45:48 [INFO]: Getusers handler completed. 
+2024-06-28 13:41:58 [INFO]: Getusers handler Started. 
+2024-06-28 13:41:58 [INFO]: Getusers handler completed. 
+2024-06-28 13:41:58 [INFO]: Getusers handler Started. 
+2024-06-28 13:41:58 [INFO]: Getusers handler completed. 
+2024-06-28 13:43:16 [INFO]: updateUser handler completed. 
+2024-06-28 13:43:16 [INFO]: Getusers handler Started. 
+2024-06-28 13:43:16 [INFO]: Getusers handler completed. 
+2024-06-28 13:56:19 [INFO]: Getusers handler Started. 
+2024-06-28 13:56:19 [INFO]: Getusers handler completed. 
+2024-06-28 13:56:24 [INFO]: Getusers handler Started. 
+2024-06-28 13:56:45 [INFO]: Getusers handler Started. 
+2024-06-28 13:56:48 [INFO]: Getusers handler Started. 
+2024-06-28 13:57:09 [INFO]: Getusers handler Started. 
+2024-06-28 13:57:23 [INFO]: Getusers handler Started. 
+2024-06-28 13:57:43 [INFO]: Getusers handler Started. 
+2024-06-28 14:02:01 [INFO]: Getusers handler Started. 
+2024-06-28 14:02:01 [INFO]: Getusers handler completed. 
+2024-06-28 14:02:17 [INFO]: updateUser handler completed. 
+2024-06-28 14:02:17 [INFO]: Getusers handler Started. 
+2024-06-28 14:02:18 [INFO]: Getusers handler completed. 
+2024-06-28 14:03:01 [INFO]: updateUser handler completed. 
+2024-06-28 14:03:02 [INFO]: Getusers handler Started. 
+2024-06-28 14:03:02 [INFO]: Getusers handler completed. 
+2024-06-28 15:07:47 [INFO]: updateUser handler completed. 
+2024-06-28 15:21:34 [INFO]: updateUser handler completed. 
+2024-06-28 15:31:39 [ERROR]: updateUser Service Exceptions {
+  "err": {
+    "length": 105,
+    "name": "error",
+    "severity": "ERROR",
+    "code": "42703",
+    "position": "20",
+    "file": "parse_relation.c",
+    "line": "3727",
+    "routine": "errorMissingColumn"
+  }
+}
+2024-06-28 15:31:39 [INFO]: updateUser handler completed. 
+2024-06-28 15:40:57 [INFO]: updateUser handler completed. 
+2024-06-28 15:44:49 [ERROR]: updateUser Service Exceptions {
+  "err": {
+    "length": 297,
+    "name": "error",
+    "severity": "ERROR",
+    "code": "42601",
+    "hint": "If you want to discard the results of a SELECT, use PERFORM instead.",
+    "where": "PL/pgSQL function updateuser(bigint,character,character,character,character,character,character) line 13 at SQL statement",
+    "file": "pl_exec.c",
+    "line": "4431",
+    "routine": "exec_stmt_execsql"
+  }
+}
+2024-06-28 15:44:49 [INFO]: updateUser handler completed. 
+2024-06-28 15:48:36 [INFO]: updateUser handler completed. 
+2024-06-28 15:51:25 [INFO]: Getusers handler Started. 
+2024-06-28 15:51:26 [INFO]: Getusers handler completed. 
+2024-06-28 15:51:26 [INFO]: Getusers handler Started. 
+2024-06-28 15:51:26 [INFO]: Getusers handler completed. 
+2024-06-28 15:52:23 [INFO]: Getusers handler Started. 
+2024-06-28 15:52:23 [INFO]: Getusers handler completed. 
+2024-06-28 15:52:24 [INFO]: Getusers handler Started. 
+2024-06-28 15:52:24 [INFO]: Getusers handler completed. 
+2024-06-28 15:52:25 [INFO]: Getusers handler Started. 
+2024-06-28 15:52:25 [INFO]: Getusers handler completed. 
+2024-06-28 15:52:35 [INFO]: Getusers handler Started. 
+2024-06-28 15:52:35 [INFO]: Getusers handler completed. 
+2024-06-28 15:52:35 [INFO]: Getusers handler Started. 
+2024-06-28 15:52:35 [INFO]: Getusers handler completed. 
+2024-06-28 15:52:51 [INFO]: updateUser handler completed. 
+2024-06-28 15:52:51 [INFO]: Getusers handler Started. 
+2024-06-28 15:52:51 [INFO]: Getusers handler completed. 
+2024-06-28 15:53:09 [INFO]: updateUser handler completed. 
+2024-06-28 15:53:09 [INFO]: Getusers handler Started. 
+2024-06-28 15:53:45 [INFO]: Getusers handler Started. 
+2024-06-28 15:53:45 [INFO]: Getusers handler completed. 
+2024-06-28 15:53:46 [INFO]: updateUser handler completed. 
+2024-06-28 15:53:46 [INFO]: Getusers handler Started. 
+2024-06-28 15:53:46 [INFO]: Getusers handler completed. 
+2024-06-28 15:54:30 [INFO]: addUser handler completed. 
+2024-06-28 15:54:30 [INFO]: Getusers handler Started. 
+2024-06-28 15:54:30 [INFO]: Getusers handler completed. 
+2024-06-28 15:56:32 [INFO]: addUser handler completed. 
+2024-06-28 15:56:32 [INFO]: Getusers handler Started. 
+2024-06-28 15:56:32 [INFO]: Getusers handler completed. 
+2024-06-28 15:57:02 [INFO]: Getusers handler Started. 
+2024-06-28 15:57:02 [INFO]: Getusers handler completed. 
+2024-06-28 15:57:02 [INFO]: Getusers handler Started. 
+2024-06-28 15:57:02 [INFO]: Getusers handler completed. 
+2024-06-28 15:57:03 [INFO]: Getusers handler Started. 
+2024-06-28 15:57:03 [INFO]: Getusers handler completed. 
+2024-06-28 15:57:03 [INFO]: Getusers handler Started. 
+2024-06-28 15:57:04 [INFO]: Getusers handler Started. 
+2024-06-28 15:57:24 [INFO]: Getusers handler Started. 
+2024-06-28 15:59:06 [INFO]: Getusers handler Started. 
+2024-06-28 15:59:06 [INFO]: Getusers handler completed. 
+2024-06-28 16:00:24 [INFO]: Getusers handler Started. 
+2024-06-28 16:00:24 [INFO]: Getusers handler completed. 
+2024-06-28 16:00:24 [INFO]: Getusers handler Started. 
+2024-06-28 16:00:25 [INFO]: Getusers handler completed. 
+2024-06-28 16:00:58 [INFO]: addUser handler completed. 
+2024-06-28 16:00:58 [INFO]: Getusers handler Started. 
+2024-06-28 16:00:58 [INFO]: Getusers handler completed. 
+2024-06-28 16:05:15 [INFO]: addUser handler completed. 
+2024-06-28 16:05:15 [INFO]: Getusers handler Started. 
+2024-06-28 16:05:24 [INFO]: Getusers handler completed. 
+2024-06-28 16:08:29 [INFO]: addUser handler completed. 
+2024-06-28 16:09:14 [INFO]: addUser handler completed. 
+2024-06-28 16:20:55 [ERROR]: addUser Service Exceptions {
+  "err": {
+    "length": 165,
+    "name": "error",
+    "severity": "ERROR",
+    "code": "P0001",
+    "where": "PL/pgSQL function adduser(text,text,text,text,text,text) line 25 at RAISE",
+    "file": "pl_exec.c",
+    "line": "3923",
+    "routine": "exec_stmt_raise"
+  }
+}
+2024-06-28 16:20:55 [INFO]: addUser handler completed. 
+2024-06-28 16:21:01 [INFO]: loginUser handler started. 
+2024-06-28 16:21:06 [INFO]: loginUser Service completed. 
+2024-06-28 16:21:06 [INFO]: loginUser handler completed. 
+2024-06-28 16:34:28 [INFO]: loginUser handler started. 
+2024-06-28 16:34:50 [INFO]: loginUser handler started. 
+2024-06-28 16:34:50 [INFO]: loginUser Service completed. 
+2024-06-28 16:34:50 [INFO]: loginUser handler completed. 
+2024-06-28 16:35:08 [INFO]: Getusers handler Started. 
+2024-06-28 16:35:08 [INFO]: Getusers handler completed. 
+2024-06-28 16:35:08 [INFO]: Getusers handler Started. 
+2024-06-28 16:35:08 [INFO]: Getusers handler completed. 
+2024-06-28 16:36:49 [INFO]: Getusers handler Started. 
+2024-06-28 16:36:49 [INFO]: Getusers handler completed. 
+2024-06-28 16:36:52 [INFO]: Getusers handler Started. 
+2024-06-28 16:36:52 [INFO]: Getusers handler completed. 
+2024-06-28 16:36:52 [INFO]: Getusers handler Started. 
+2024-06-28 16:36:53 [INFO]: Getusers handler completed. 
+2024-06-28 16:37:07 [INFO]: updateUser handler completed. 
+2024-06-28 16:37:07 [INFO]: Getusers handler Started. 
+2024-06-28 16:37:08 [INFO]: Getusers handler completed. 
+2024-06-28 16:37:28 [ERROR]: addUser Service Exceptions {
+  "err": {
+    "length": 165,
+    "name": "error",
+    "severity": "ERROR",
+    "code": "P0001",
+    "where": "PL/pgSQL function adduser(text,text,text,text,text,text) line 25 at RAISE",
+    "file": "pl_exec.c",
+    "line": "3923",
+    "routine": "exec_stmt_raise"
+  }
+}
+2024-06-28 16:37:28 [INFO]: addUser handler completed. 
+2024-06-28 16:37:28 [INFO]: Getusers handler Started. 
+2024-06-28 16:37:28 [INFO]: Getusers handler completed. 
+2024-06-28 16:41:15 [ERROR]: addUser Service Exceptions {
+  "err": {
+    "length": 165,
+    "name": "error",
+    "severity": "ERROR",
+    "code": "P0001",
+    "where": "PL/pgSQL function adduser(text,text,text,text,text,text) line 25 at RAISE",
+    "file": "pl_exec.c",
+    "line": "3923",
+    "routine": "exec_stmt_raise"
+  }
+}
+2024-06-28 16:41:15 [INFO]: addUser handler completed. 
+2024-06-28 16:41:45 [ERROR]: addUser Service Exceptions {
+  "err": {
+    "length": 165,
+    "name": "error",
+    "severity": "ERROR",
+    "code": "P0001",
+    "where": "PL/pgSQL function adduser(text,text,text,text,text,text) line 25 at RAISE",
+    "file": "pl_exec.c",
+    "line": "3923",
+    "routine": "exec_stmt_raise"
+  }
+}
+2024-06-28 16:41:45 [INFO]: addUser handler completed. 
+2024-06-28 16:46:45 [INFO]: addUser handler completed. 
+2024-06-28 16:47:20 [INFO]: Getusers handler Started. 
+2024-06-28 16:47:28 [INFO]: Getusers handler completed. 
+2024-06-28 16:47:28 [INFO]: Getusers handler Started. 
+2024-06-28 16:47:31 [INFO]: Getusers handler completed. 
+2024-06-28 16:48:04 [INFO]: addUser handler completed. 
+2024-06-28 16:48:04 [INFO]: Getusers handler Started. 
+2024-06-28 16:48:07 [INFO]: Getusers handler completed. 
